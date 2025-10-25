@@ -4,9 +4,9 @@ repo: upptime # The name of this repository
 
 sites:
   - name: My Mikrotik
-    url: http://27.147.222.154:9991/
+    url: http://27.147.222.154
     
-    port: 80
+    port: 9991
     check: "tcp-ping"
     ipv6: true
 
